@@ -21,8 +21,17 @@ div {
     height: 250px;   
 }
 
+/* css for info bar  */
+
 #info-bar{
-    order: 0;          
+    height: 100px;
+    background-color: #66bfbf;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .3em;
+    /* order: 0;          
     height: 35px;
     color: white;
     border: 1px solid red;
@@ -31,7 +40,31 @@ div {
     display: flex;
     flex-direction: row;
     flex-flow: nowrap;
-    justify-content: center;
+    justify-content: center; */
+}
+
+#fb_01{
+    height: 2em;
+}
+
+#ld_01{
+    height: 2em;
+}
+
+button{
+    color: #dbdbdb;
+    background-color: #0f7f85;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    padding: .6em;
+    border-radius: .3em;
+    border: 1px solid #0f7176d8;
+    margin: 1em;
+
+}
+
+button:hover{
+    background-color: #000;
 }
 
 #phone{
