@@ -24,10 +24,27 @@ div {
 #info-bar{
     order: 0;          
     height: 35px;
+    color: white;
     border: 1px solid red;
     background-color: blue;
     font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content: center;
 }
+
+#phone{
+order: 0;
+}
+
+#phone-details{
+    font-size: 24px;
+    order: 0;
+}
+
+
+
 
 #nav-bar{
     order: 1;       
